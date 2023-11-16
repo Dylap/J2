@@ -33,14 +33,14 @@ build {
 
   post-processors {
     post-processor "docker-tag" {
-      repository = "joffreydupire/build-voting-app"
+      repository = "dylap/build-voting-app"
       tags = ["latest"]
     }
 
     post-processor "docker-push" {
       login = true
-      login_username = "joffreydupire"
-      login_password = "mettre_token_pat"
+      login_username = "dylap"
+      login_password = "dckr_pat_vUJIPdKuBoE8yOFIUUKy6q4x7Es"
     }
   }
 }
